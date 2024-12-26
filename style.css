@@ -1,0 +1,375 @@
+body {
+    color: black;
+    font-family: 'Lora', serif;
+    background-image: url('9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin: 5;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    z-index: 1000;
+    font-family: 'Lora', serif;
+}
+
+.navigation-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    background-color: rgb(73, 101, 121);
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navigation-menu a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.navigation-menu a:hover {
+    background-color: #34495e;
+    color: #ffffff;
+}
+
+.photo-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.column {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.column img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.column p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.text-box {
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.left-column, .middle-column, .right-column {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    text-align: left; 
+}
+
+.middle-video {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.contact-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: left; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    text-align: left; 
+}
+
+
+table {
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left; 
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 60px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    text-align: center; 
+    background-color: transparent; 
+    padding: 10px 0; 
+    position: relative; 
+}
+
+.about-artist-section {
+    margin: 20px 0;
+}
+
+.author-info {
+    margin-bottom: 20px;
+}
+
+.text-box {
+    background-color: white;
+    margin: 20px 0;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+aside {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.artist-image {
+    width: 200px; 
+    height: auto; 
+}
+.white-text-box {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black; 
+    text-align: left;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation-menu a {
+        margin-left: 10px;
+        padding: 5px 10px; 
+    }
+
+    .white-text-box {
+        padding: 10px; 
+    }
+
+    .column img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .author-info, .about-artist-section {
+        padding: 10px; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .navigation-menu {
+        flex-direction: column; 
+        padding: 5px; 
+    }
+
+    .navigation-menu a {
+        display: block; 
+        margin: 5px 0; 
+    }
+
+    .column {
+        flex: 100%; 
+        margin: 5px 0; 
+    }
+}
+@media screen and (min-width: 1025px) {
+    .container {
+        max-width: 1200px; 
+        margin: auto; 
+    }
+
+    .text-box, .contact-container, .table-container {
+        padding: 30px; 
+    }
+
+    .navigation-menu a {
+        padding: 10px 15px; 
+    }
+
+    .column {
+        padding: 0 15px; 
+    }
+
+    .navigation-menu {
+        padding: 20px 40px; 
+    }
+
+    .photo-grid {
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+    }
+
+    .column img {
+        width: 250px; 
+        height: 250px; 
+    }
+}
+
+@media print {
+    body {
+        color: black; 
+        background: none; 
+    }
+
+    .navigation-menu, .logo, footer, aside {
+        display: none; 
+    }
+
+    .white-text-box, .about-artist-section {
+        background-color: transparent; 
+        color: black; 
+        box-shadow: none; 
+    }
+
+    .white-text-box, .contact-container, .table-container {
+        border: 1px solid #000; 
+    }
+
+    main {
+        width: 100%; 
+        padding: 0; 
+    }
+
+    article, section {
+        page-break-inside: avoid; 
+    }
+
+    img {
+        max-width: 100%; 
+    }
+
+    h1, h2, h3 {
+        color: black; 
+    }
+}
